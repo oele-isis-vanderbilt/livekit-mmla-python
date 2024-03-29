@@ -11,7 +11,7 @@ This is a work in progress and more features will be added soon.
 ## Installation
 ```bash
 $ git clone git@github.com/oele-isis-vanderbilt/livekit-mmla-python.git
-$ cd livekit-mmla
+$ cd livekit-mmla-python/livekit-mmla
 $ pip install .
 ```
 
