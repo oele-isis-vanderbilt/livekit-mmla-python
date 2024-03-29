@@ -16,7 +16,7 @@ $ pip install .
 ```
 
 ## Usage for a simple token server
-First go to https://dashboard.livekit-mmla.org, and create an API key/secret pairs for you account.
+First go to https://dashboard.livekit-mmla.org, and create an API key/secret pairs for your account.
 
 Create an `.env` file at the root of this repository with the following content:
 ```bash
@@ -34,5 +34,7 @@ $ pip install .[token-server]
 
 Then run the token server:
 ```bash
-$ uvicorn token_server:app --reload
+$ uvicorn token_server:app --host 0.0.0.0 --port 8000
 ```
+
+The api will be available at `http://localhost:8000` and docs at `http://localhost:8000/docs`.
